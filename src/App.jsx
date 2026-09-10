@@ -16,9 +16,9 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<Carrinho />} />
-      <Route path="/" element= {<Pagamento />} />
-      <Route path="/" element= {<Sucesso />} />
-      <Route path="/" element= {<Falha/>} />
+      <Route path="/pagamento" element= {<Pagamento />} />
+      <Route path="/sucesso" element= {<Sucesso />} />
+      <Route path="/falha" element= {<Falha/>} />
     </Routes>
   )
 }

@@ -1,8 +1,9 @@
 function Sucesso() {
-    return
+    return (
         <>
             <h1>Sucesso</h1>
         </>
+    )
 }
 
 export default Sucesso
