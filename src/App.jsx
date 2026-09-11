@@ -8,7 +8,7 @@ import { Routes, Route } from 'react-router-dom'
 import Carrinho from './pages/Carrinho'
 import Pagamento from './pages/Pagamento'
 import Sucesso from './pages/Sucesso'
-import Falha from './pages/Falha'
+import ErroPagamento from './pages/ErroPagamento'
 import './App.css'
 
 function App() {
@@ -18,7 +18,7 @@ function App() {
       <Route path="/" element={<Carrinho />} />
       <Route path="/pagamento" element= {<Pagamento />} />
       <Route path="/sucesso" element= {<Sucesso />} />
-      <Route path="/falha" element= {<Falha/>} />
+      <Route path="/erroPagamento" element= {<ErroPagamento/>} />
     </Routes>
   )
 }

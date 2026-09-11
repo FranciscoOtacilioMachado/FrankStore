@@ -18,7 +18,7 @@ function Pagamnto() {
         <main>
             <h1>Pagamento</h1>
 
-            <form onSubmit={handleSubmit(processarPagamento)}noValidate>
+            <form onSubmit={handleSubmit(processarPagamento)} noValidate>
                 <div>
                     <label htmlFor="titular">
                         Titular do cartão
@@ -31,7 +31,7 @@ function Pagamnto() {
                 </div>
 
                 <div>
-                    <label htmlFor="numeroCartao">Numero do cartão </label>;
+                    <label htmlFor="numeroCartao">Numero do cartão </label>
                     <input 
                         type="text" 
                         id="numeroCartao" 
