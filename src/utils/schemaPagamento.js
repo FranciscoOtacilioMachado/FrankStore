@@ -1,4 +1,4 @@
-import { validate, z } from "zod"
+import { z } from "zod"
 
 export const schemaPagamento = z.object ({
     titular: z
@@ -13,7 +13,7 @@ export const schemaPagamento = z.object ({
             message: "O cartão deve ter 16 digitos",
         }),
     
-    validate: z
+    validade: z
         .string()
         .regex(/^(0[1-9]|1[0-2])\/\d{2}$/, "Formato inválido, use MM/AA"),
 

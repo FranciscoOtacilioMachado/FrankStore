@@ -14,10 +14,10 @@ function Carrinho () {
             <h1> Carrinho</h1>
 
             <ul>
-                {produtos.map((produto) => {
+                {produtos.map((produto) => (
                     <ItemCarrinho key={produto.id} 
                     produto={produto} />
-                })}
+                ))}
             </ul>
 
             <p>Total: R$ {total.toFixed(2)}</p>

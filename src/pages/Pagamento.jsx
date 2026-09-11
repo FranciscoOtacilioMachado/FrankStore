@@ -3,7 +3,7 @@ import { zodResolver } from "@hookform/resolvers/zod"
 import { schemaPagamento } from "../utils/schemaPagamento"
 import { usePagamento } from "../hooks/usePagamento"
 
-function Pagamnto() {
+function Pagamento() {
     const {
         register, 
         handleSubmit,
@@ -79,4 +79,4 @@ function Pagamnto() {
     )
 }
 
-export default Pagamnto
+export default Pagamento

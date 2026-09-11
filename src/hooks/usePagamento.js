@@ -13,6 +13,7 @@ export function usePagamento() {
         await new Promise((resolve) => setTimeout(resolve, 1500));
 
         const falhou = todosDigitosIguais(dados.numeroCartao);
+        console.log("falhou?", falhou, "dados do cartão", dados.numeroCartao)
 
         setProcessando(false)
 
