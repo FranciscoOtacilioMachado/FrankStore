@@ -7,19 +7,22 @@ import ResumoCompra from "../components/ResumoCompra";
 function Carrinho () {
 
     return (
-        <main>
+        <main className="paginap-carrinho">
             <h1> Carrinho</h1>
 
-            <ul>
-                {produtos.map((produto) => (
-                    <ItemCarrinho key={produto.id} 
-                    produto={produto} />
-                ))}
-            </ul>
+            <div className="carrinho-layout">
+                <ul className="lista-produtos">
+                    {produtos.map((produto) => (
+                        <ItemCarrinho key={produto.id} 
+                        produto={produto} />
+                    ))}
+                </ul>
+                <aside className="resumo-lateral">
+                    <ResumoCompra produtos={produtos} />
 
-            <ResumoCompra produtos={produtos} />
-
-            <Link to="/pagamento">Finalizar compra</Link>
+                    <Link to="/pagamento">Finalizar compra</Link>
+                </aside>
+            </div>
         </main>
     )
 }
