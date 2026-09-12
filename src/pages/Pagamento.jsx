@@ -2,6 +2,8 @@ import { useForm } from "react-hook-form"
 import { zodResolver } from "@hookform/resolvers/zod"
 import { schemaPagamento } from "../utils/schemaPagamento"
 import { usePagamento } from "../hooks/usePagamento"
+import ResumoCompra from "../components/ResumoCompra";
+import { produtos } from "../data/produtos";
 
 function Pagamento() {
     const {
@@ -17,6 +19,8 @@ function Pagamento() {
     return (
         <main>
             <h1>Pagamento</h1>
+
+            <ResumoCompra produtos={produtos} />
 
             <form onSubmit={handleSubmit(processarPagamento)} noValidate>
                 <div>
