@@ -1,13 +1,10 @@
 import { Link } from "react-router-dom";
 import { produtos } from "../data/produtos";
 import ItemCarrinho from "../components/ItemCarrinho";
+import ResumoCompra from "../components/ResumoCompra";
 
 
 function Carrinho () {
-    const total = produtos.reduce (
-        (acc, produto) => acc + produto.precoUnitario * 
-        produto.quantidade, 0
-    )
 
     return (
         <main>
@@ -20,7 +17,7 @@ function Carrinho () {
                 ))}
             </ul>
 
-            <p>Total: R$ {total.toFixed(2)}</p>
+            <ResumoCompra produtos={produtos} />
 
             <Link to="/pagamento">Finalizar compra</Link>
         </main>
