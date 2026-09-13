@@ -184,9 +184,29 @@ body {
 }
 
 .erroPagamento {
-    background-color: #fdecea;
+    background-color: #eabeba;
 }
 
 .erroPagamento h1 {
     color: var(--cor-alerta);
+}
+
+@media (max-width: 768px) {
+    .pagina-carrinho,
+    .pagina-pagamento {
+        padding: 1rem;
+    }
+
+    .carrinho-layout {
+        flex-direction: column;
+    }
+
+    .item-carrinho {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .item-carrinho-info {
+        width: 100%;
+    }
 }
