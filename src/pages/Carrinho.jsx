@@ -7,7 +7,7 @@ import ResumoCompra from "../components/ResumoCompra";
 function Carrinho () {
 
     return (
-        <main className="paginap-carrinho">
+        <main className="pagina-carrinho">
             <h1> Carrinho</h1>
 
             <div className="carrinho-layout">
