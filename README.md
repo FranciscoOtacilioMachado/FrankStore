@@ -16,7 +16,7 @@ Simula a experiência de checkout de um e-commerce: o usuário revisa os produto
 ## Como executar
 
 \`\`\`bash
-git clone <url-do-repositorio>
+git clone <https://github.com/FranciscoOtacilioMachado/FrankStore>git 
 cd FrankStore
 npm install
 npm run dev
