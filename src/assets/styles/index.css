@@ -157,3 +157,36 @@ body {
     font-weight: 700;
 }
 
+.pagina-resultado {
+    max-width: 500px;
+    margin: 4rem auto;
+    padding: 2rem;
+    text-align: center;
+    border-radius: 8rem;
+}
+
+.pagina-resultado h1 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+.pagina-resultado a {
+    color: var(--cor-texto-suave);
+    font-weight: 600;
+}
+
+.sucesso {
+    background-color: #e8f5e9;
+}
+
+.sucesso h1 {
+    color: #259f64;
+}
+
+.erroPagamento {
+    background-color: #fdecea;
+}
+
+.erroPagamento h1 {
+    color: var(--cor-alerta);
+}
