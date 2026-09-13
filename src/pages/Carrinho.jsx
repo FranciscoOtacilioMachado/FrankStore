@@ -8,7 +8,7 @@ function Carrinho () {
 
     return (
         <main className="pagina-carrinho">
-            <h1> Carrinho</h1>
+            <h1> Itens do Carrinho</h1>
 
             <div className="carrinho-layout">
                 <ul className="lista-produtos">
