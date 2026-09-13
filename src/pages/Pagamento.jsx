@@ -17,7 +17,7 @@ function Pagamento() {
     const { processando, processarPagamento} = usePagamento();
 
     return (
-        <main>
+        <main className="pagina-pagamento">
             <h1>Pagamento</h1>
 
             <ResumoCompra produtos={produtos} />

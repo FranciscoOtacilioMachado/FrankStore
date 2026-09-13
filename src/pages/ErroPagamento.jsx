@@ -2,10 +2,10 @@ import { Link } from "react-router-dom"
 
 function ErroPagamento() {
   return (
-    <>
-      <h1>tentativa de golpe</h1>     
+    <main className="pagina-resultado erroPagamento" >
+      <h1>Erro no pagamento</h1>     
       <Link to="/pagamento">Tentar novamente</Link>
-    </>
+    </main>
   )
 }
 
