@@ -1,8 +1,11 @@
+import { Link } from "react-router-dom"
+
 function Sucesso() {
     return (
-        <>
-            <h1>Sucesso</h1>
-        </>
+        <main>
+            <h1>Compra aprovada com sucesso!</h1>
+            <Link to="/">Voltar ao carrinho</Link>
+        </main>
     )
 }
 
