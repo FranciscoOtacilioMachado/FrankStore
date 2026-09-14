@@ -70,4 +70,4 @@ Acesse http://localhost:5173 no navegador.
 
 ## Vídeo de apresentação
 
-[link do vídeo aqui]
+https://youtu.be/U8rzSognYKU
