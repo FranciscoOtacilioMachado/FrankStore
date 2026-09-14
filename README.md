@@ -6,6 +6,37 @@ Projeto avaliativo do Módulo 2 (Front-End React) — uma SPA que simula o fluxo
 
 Simula a experiência de checkout de um e-commerce: o usuário revisa os produtos do carrinho, informa dados fictícios de cartão e recebe uma resposta simulada (aprovação ou recusa), sem nenhuma integração real de pagamento.
 
+## Estrutura do projeto
+
+\`\`\`
+FrankStore/
+├── package.json
+├── vite.config.js
+├── README.md
+└── src/
+    ├── main.jsx
+    ├── App.jsx
+    ├── pages/
+    │   ├── Carrinho.jsx
+    │   ├── Pagamento.jsx
+    │   ├── Sucesso.jsx
+    │   └── ErroPagamento.jsx — mensagem "tentativa de golpe"
+    ├── components/
+    │   ├── ItemCarrinho.jsx
+    │   └── ResumoCompra.jsx
+    ├── hooks/
+    │   └── usePagamento.js
+    ├── utils/
+    │   ├── pagamento.js
+    │   └── schemaPagamento.js
+    ├── data/
+    │   └── produtos.js
+    └── assets/
+        ├── styles/
+        │   └── index.css
+        └── img/
+\`\`\`
+
 ## Tecnologias utilizadas
 
 - React + Vite
@@ -16,7 +47,7 @@ Simula a experiência de checkout de um e-commerce: o usuário revisa os produto
 ## Como executar
 
 \`\`\`bash
-git clone <https://github.com/FranciscoOtacilioMachado/FrankStore>git 
+git clone <https://github.com/FranciscoOtacilioMachado/FrankStore> git 
 cd FrankStore
 npm install
 npm run dev
