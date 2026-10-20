@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { produtos } from "../data/produtos";
+import { produtos } from "../../../data/produtos";
 import ItemCarrinho from "../components/ItemCarrinho";
 import ResumoCompra from "../components/ResumoCompra";
 

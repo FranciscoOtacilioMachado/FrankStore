@@ -2,8 +2,8 @@ import { useForm } from "react-hook-form"
 import { zodResolver } from "@hookform/resolvers/zod"
 import { schemaPagamento } from "../utils/schemaPagamento"
 import { usePagamento } from "../hooks/usePagamento"
-import ResumoCompra from "../components/ResumoCompra";
-import { produtos } from "../data/produtos";
+import ResumoCompra from "../../carrinho/components/ResumoCompra";
+import { produtos } from "../../../data/produtos";
 
 function Pagamento() {
     const {

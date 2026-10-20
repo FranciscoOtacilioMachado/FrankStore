@@ -5,10 +5,10 @@ import viteLogo from './assets/vite.svg'
 
 
 import { Routes, Route } from 'react-router-dom'
-import Carrinho from './pages/Carrinho'
-import Pagamento from './pages/Pagamento'
-import Sucesso from './pages/Sucesso'
-import ErroPagamento from './pages/ErroPagamento'
+import Carrinho from './features/carrinho/pages/Carrinho'
+import Pagamento from './features/pagamento/pages/Pagamento'
+import Sucesso from './features/pagamento/pages/Sucesso'
+import ErroPagamento from './features/pagamento/pages/ErroPagamento'
 import './App.css'
 
 function App() {
