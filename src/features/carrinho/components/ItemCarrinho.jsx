@@ -1,3 +1,5 @@
+import Proptypes from "prop-types";
+
 function ItemCarrinho ({ produto }) {
     const subtotal = produto.precoUnitario * produto.quantidade;
 
@@ -19,5 +21,15 @@ function ItemCarrinho ({ produto }) {
         </li>
     )
 }
+
+ItemCarrinho.Proptypes = {
+    produto: Proptypes.shape({
+        id: Proptypes.oneOfType([Proptypes.number, Proptypes.string]).isRequired,
+        nome: Proptypes.string.isRequired,
+        precoUnitario: Proptypes.number.isRequired,
+        quantidade: Proptypes.number.isRequired,
+        imagem: Proptypes.string,
+    }).isRequired,
+};
 
 export default ItemCarrinho;
