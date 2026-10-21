@@ -1,3 +1,5 @@
+import PropTypes from "prop-types"
+
 function ResumoCompra({ produtos }) {
     const total = produtos.reduce(
         (acc, produto) => acc + produto.precoUnitario * produto.quantidade, 0
@@ -9,5 +11,14 @@ function ResumoCompra({ produtos }) {
         </section>
     )
 }
+
+ResumoCompra.propTypes = {
+    produtos: PropTypes.arrayOf(
+        PropTypes.shape({
+            precoUnitario: PropTypes.number.isRequired,
+            quantidade: PropTypes.number.isRequired,
+        })
+    ).isRequired,
+};
 
 export default ResumoCompra
