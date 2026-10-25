@@ -1,0 +1,112 @@
+{
+  "produtos": [
+    {
+      "id": "1",
+      "nome": "Camisa de Botão",
+      "descricao": "Camisa de algodão com botões, para o dia a dia.",
+      "preco": 79.9,
+      "categoria": "Roupas",
+      "imagem": "https://placehold.co/600x600?text=Camisa+de+Botao",
+      "estoque": 10
+    },
+    {
+      "id": "2",
+      "nome": "Bermuda Sarja",
+      "descricao": "Bermuda de sarja confortável, perfeita para o verão.",
+      "preco": 45.5,
+      "categoria": "Roupas",
+      "imagem": "https://placehold.co/600x600?text=Bermuda+Sarja",
+      "estoque": 8
+    },
+    {
+      "id": "3",
+      "nome": "Camiseta Básica",
+      "descricao": "Camiseta de algodão com corte reto.",
+      "preco": 39.9,
+      "categoria": "Roupas",
+      "imagem": "https://placehold.co/600x600?text=Camiseta+Basica",
+      "estoque": 20
+    },
+    {
+      "id": "4",
+      "nome": "Jaqueta Jeans",
+      "descricao": "Jaqueta jeans clássica com forro leve.",
+      "preco": 189.9,
+      "categoria": "Roupas",
+      "imagem": "https://placehold.co/600x600?text=Jaqueta+Jeans",
+      "estoque": 2
+    },
+    {
+      "id": "5",
+      "nome": "Boné Nova",
+      "descricao": "Boné aba curva com ajuste traseiro.",
+      "preco": 49.8,
+      "categoria": "Acessórios",
+      "imagem": "https://placehold.co/600x600?text=Bone+Nova",
+      "estoque": 15
+    },
+    {
+      "id": "6",
+      "nome": "Mochila Urbana",
+      "descricao": "Mochila resistente com compartimento para notebook.",
+      "preco": 129.9,
+      "categoria": "Acessórios",
+      "imagem": "https://placehold.co/600x600?text=Mochila+Urbana",
+      "estoque": 6
+    },
+    {
+      "id": "7",
+      "nome": "Relógio Digital",
+      "descricao": "Relógio digital resistente à água, com cronômetro.",
+      "preco": 99.9,
+      "categoria": "Acessórios",
+      "imagem": "https://placehold.co/600x600?text=Relogio+Digital",
+      "estoque": 3
+    },
+    {
+      "id": "8",
+      "nome": "Óculos de Sol",
+      "descricao": "Óculos de sol com proteção UV400.",
+      "preco": 69.9,
+      "categoria": "Acessórios",
+      "imagem": "https://placehold.co/600x600?text=Oculos+de+Sol",
+      "estoque": 12
+    },
+    {
+      "id": "9",
+      "nome": "Tênis Runner",
+      "descricao": "Tênis leve para corrida.",
+      "preco": 299.9,
+      "categoria": "Calçados",
+      "imagem": "https://placehold.co/600x600?text=Tenis+Runner",
+      "estoque": 5
+    },
+    {
+      "id": "10",
+      "nome": "Sandália Conforto",
+      "descricao": "Sandália com palmilha anatômica.",
+      "preco": 89.9,
+      "categoria": "Calçados",
+      "imagem": "https://placehold.co/600x600?text=Sandalia+Conforto",
+      "estoque": 9
+    },
+    {
+      "id": "11",
+      "nome": "Chinelo Slide",
+      "descricao": "Chinelo slide macio e leve.",
+      "preco": 59.9,
+      "categoria": "Calçados",
+      "imagem": "https://placehold.co/600x600?text=Chinelo+Slide",
+      "estoque": 25
+    },
+    {
+      "id": "12",
+      "nome": "Bota Casual",
+      "descricao": "Bota casual de couro sintético.",
+      "preco": 249.9,
+      "categoria": "Calçados",
+      "imagem": "https://placehold.co/600x600?text=Bota+Casual",
+      "estoque": 4
+    }
+  ]
+}
