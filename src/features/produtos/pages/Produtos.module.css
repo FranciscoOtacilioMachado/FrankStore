@@ -1,0 +1,28 @@
+.pagina {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.grade {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    list-style: none;
+}
+
+.grade > * {
+    flex: 0 0 100%;
+}
+
+@media (min-width: 640px) {
+    .grade > * {
+        flex-basis: cale((100% - 1rem) /2);
+    }
+}
+
+@media (min-width: 1024px) {
+    .grade > * {
+        flex-basis: calc((100% - 3rem) /4);
+    }
+}

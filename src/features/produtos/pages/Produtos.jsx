@@ -1,7 +1,14 @@
 import { useProdutos } from "../hooks/useProdutos";
+import ProdutoCard from "../components/ProdutoCard";
+import styles from "./Produtos.module.css";
+
 
 function Produtos () {
     const { produtos, carregando, erro} = useProdutos();
+
+    function handleAdicionar(produto) {
+        console.log("Adicionar produto ao carrinho.". produto.nome)
+    }
 
     if(carregando) {
         return <p role="status">Carregando produtos...</p>;
@@ -16,11 +23,16 @@ function Produtos () {
     }
 
     return (
-        <section>
+        <section className={styles.pagina}>
             <h1>Produtos</h1>
-            <ul>
-                {produtos.map((produto) =>(
-                    <li key={produto.id}>{produto.nome}</li>
+
+            <ul className= {styles.grade}>
+                {produtos.map((produto) => (
+                    <ProdutoCard 
+                    key={produto.id}
+                    produto={produto}
+                    onAdicionar={handleAdicionar}
+                    />
                 ))}
             </ul>
         </section>
