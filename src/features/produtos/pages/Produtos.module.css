@@ -11,6 +11,32 @@
     list-style: none;
 }
 
+.vazio {
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.botaoLimpar {
+    margin-top: 1rem;
+    padding: 0.6rem 1rem;
+    border: 1px solid var(--cor--destaque);
+    border-radius: 4px;
+    background-color: transparent;
+    color: var(--cor--destaque);
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.botaoLimpar:hover {
+    background-color: var(--cor--destaque);
+    color: #fff;
+}
+
+.botaoLimpar:focus {
+    outline: 2px solid var(--cor--destaque);
+    outline-offset: 2px;
+}
+
 .grade > * {
     flex: 0 0 100%;
 }
